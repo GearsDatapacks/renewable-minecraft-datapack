@@ -1,0 +1,3 @@
+kill @s
+execute if entity @e[type=item,distance=..1,sort=nearest,nbt={Item:{id:"minecraft:iron_block",Count:1b}}] run summon item ~ ~ ~ {Item:{id:"minecraft:item_frame",Count:1b,tag:{display:{Name:'{"text":"Lava Transmitter","italic":false}'},CustomModelData:793723,EntityTag:{Tags:["renewable.lava_transmitter"],Invisible:1b,Silent:1b}}}}
+kill @e[type=item,distance=..1,sort=nearest,nbt={Item:{id:"minecraft:iron_block",Count:1b}}]

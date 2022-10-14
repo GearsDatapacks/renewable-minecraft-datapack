@@ -1,2 +1,0 @@
-execute as @e[type=armor_stand,tag=renewable.compressor] at @s unless block ~ ~ ~ cobblestone_slab run function renewable:compressor/remove
-execute as @e[type=item_frame,tag=renewable.compressor] at @s run function renewable:compressor/place

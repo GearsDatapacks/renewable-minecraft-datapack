@@ -1,6 +1,3 @@
-tellraw @a {"text":"Loaded"}
-
-
 ###setting up scoreboards
 
 scoreboard objectives add crafting dummy
